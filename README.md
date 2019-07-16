@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Traceback logo: two dog footprints next to each other" src="traceback.svg" width="200" height="160">
+  <img alt="Traceback logo: two dog footprints next to each other" src="traceback.svg" width="220" height="176">
 </div>
 
 # Traceback
