@@ -34,12 +34,14 @@ final class TracebackTest extends TestCase
 
     public function testIndirectTraceback(): void
     {
+        $caller = require __DIR__ . '/fixtures/caller.php';
+
         $this->assertEquals(
             [
                 $this->resolve('fixtures/caller.php'),
                 $this->resolve('fixtures')
             ],
-            require __DIR__ . '/fixtures/caller.php'
+            str_replace('\\', '/', $caller)
         );
     }
 
