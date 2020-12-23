@@ -3,7 +3,7 @@
 </div>
 
 # Traceback
-[![Test status on Travis](https://badgen.net/travis/loilo/traceback?label=tests&icon=travis)](https://travis-ci.org/loilo/traceback)
+[![Tests](https://badgen.net/github/checks/loilo/traceback/master)](https://github.com/loilo/traceback/actions)
 [![Version on packagist.org](https://badgen.net/packagist/v/loilo/traceback)](https://packagist.org/packages/loilo/traceback)
 
 Get the file or directory calling your code.
